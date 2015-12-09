@@ -32,7 +32,7 @@ plot(hpc$Date_Time, hpc$Sub_metering_1, col='black', type='l', xlab="", ylab="En
 lines(hpc$Date_Time, hpc$Sub_metering_2, col='red')
 lines(hpc$Date_Time, hpc$Sub_metering_3, col='blue')
 legend("topright", 40, c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       lty=c(1,1), bty='n', lwd=c(1.5, 1.5, 1.5), col=c("black", "red", "blue"), pt.cex=1, cex=0.7)
+       lty=c(1,1), bty='n', lwd=c(1.5, 1.5, 1.5), col=c("black", "red", "blue"), pt.cex=1, cex=1)
 # add the bottom right plot
 plot(hpc$Date_Time, hpc$Global_reactive_power, type='l', xlab="datetime", ylab="Global_reactive_power")
 dev.off()
